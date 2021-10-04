@@ -1,3 +1,4 @@
+
 /* Copyright 2020 foostan
  *
  * This program is free software: you can redistribute it and/or modify
@@ -20,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       LGUI_T(KC_TAB),    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,     KC_I,    KC_O,   KC_P,  KC_BSPC,
       KC_LCTL,    KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,     KC_K,    KC_L, KC_SCLN, KC_ENT,
      KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,  KC_COMM,  KC_DOT, KC_SLSH, SFT_T(KC_QUOT),
-     KC_HOME, KC_END, KC_LALT, KC_LGUI,   MO(2),  LT(3, KC_SPC),  LT(3, KC_SPC),   MO(1),  KC_RGUI, KC_RALT, KC_PGUP, KC_PGDN
+     KC_PGUP, KC_PGDN, KC_LALT, KC_LGUI,   MO(2),  LT(3, KC_SPC),  LT(3, KC_SPC),   MO(1),  KC_RGUI, KC_RALT, KC_HOME, KC_END
   ),
 
 [1] = LAYOUT(
