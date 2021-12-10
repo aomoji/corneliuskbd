@@ -25,10 +25,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
 [1] = LAYOUT(
-     _______, XXXXXXX, XXXXXXX,  KC_GRV, KC_BSLS,  KC_LBRC, KC_RBRC, KC_MINS,  KC_EQL, XXXXXXX, KC_MPLY, _______,
+     _______, XXXXXXX, XXXXXXX,  KC_GRV, KC_BSLS,  KC_LBRC, KC_RBRC, KC_MINS,  KC_EQL, XXXXXXX, _______, _______,
      _______,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0, _______,
      _______, LGUI(LSFT(LCTL(KC_4))), LGUI(LSFT(KC_4)), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_TRNS, KC_TRNS, KC_TRNS, XXXXXXX,
-     _______, _______, _______, _______,   MO(2), _______, _______,   MO(1), _______, _______, _______, _______
+     _______, _______, _______, _______,   MO(2), _______, _______,   MO(1), _______, _______, _______, KC_MPLY
   ),
 
 [2] = LAYOUT(
